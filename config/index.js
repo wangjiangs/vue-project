@@ -37,7 +37,7 @@ module.exports = {
           * Source Maps
           */
           cssExtract: false,
-          productionSourceMap: true,
+          productionSourceMap: false,
 
           devtool:'#source-map',
           productionGzip: true, //需要 npm install -D compression-webpack-plugin

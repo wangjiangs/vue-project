@@ -2,7 +2,6 @@
     <h1>{{message}}</h1>    
 </template>
 <script>
-import $ from "jquery"
 export default {
     data: function(){
         return {
