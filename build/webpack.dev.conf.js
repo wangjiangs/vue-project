@@ -42,7 +42,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         overlay: config.dev.errorOverloay? {warnings: false, errors: true}: false,
         publicPath:config.dev.assetsPublicPath,
         proxy: config.dev.proxyTable,
-        quiet: true,
+        quiet: false,
         watchOptions: {
             poll: config.dev.poll
         }
